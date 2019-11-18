@@ -1,0 +1,26 @@
+.well {
+    border-radius: 4px;
+    display: block;
+    padding: 30px;
+    text-align: center;
+    background: #ebebeb;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    box-shadow: 1px 2px 4px;
+
+}
+.result{
+    margin: 40px auto auto auto;
+}
+
+select{
+    font-size: 30px;
+    padding: 10px;
+}
+
+#capital{
+    color: darkblue;
+    font-size: 30px;
+    font-weight: bold;
+}

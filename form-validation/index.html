@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="validation.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form id="validate" name="validate" onsubmit="return false">
+      <div class="well">
+        <div class="info hidden">
+          <b>ERROR: </b>
+          The <span id="cause">email address</span> you entered is incorrect
+        </div>
+        <table>
+          <tr>
+            <td>Name:</td>
+            <td>
+              <input type="text" id="name" placeholder="Firstname Lastname" />
+            </td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td><input type="text" id="email" placeholder="abc@xyz.com"/></td>
+          </tr>
+          <tr>
+            <td>DOB:</td>
+            <td><input type="text" id="dob" placeholder="DD/MM/YY" /></td>
+          </tr>
+          <tr>
+            <td>Mobile:</td>
+            <td><input type="text" id="mobile" placeholder="10 Digits" /></td>
+          </tr>
+        </table>
+
+        <button onclick="doValidate()">Submit</button>
+      </div>
+    </form>
+
+    <script src="validate.js"></script>
+  </body>
+</html>

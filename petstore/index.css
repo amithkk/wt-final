@@ -1,0 +1,92 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px 10px 10px 10px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    background: radial-gradient( rgb(135, 211, 255), rgb(173, 225, 255));
+    transition-duration: 0.4s;
+    
+}
+
+button:hover{
+    background: radial-gradient( rgb(194, 233, 255), rgb(81, 190, 253));
+    box-shadow: 0px 2px 4px gray;
+}
+
+
+.header{
+    width: 100%;
+    height: auto;
+    background: url(./pets-bg.jpg) center no-repeat;
+    background-size: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.header-text{
+    font-family: Impact;
+    color: white;
+    font-size: 40px;
+    text-shadow:2px 2px 4px black ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.welcome-well{
+    background: #ebebeb;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.welcome-well button{
+    margin: 30px;
+}
+
+.cardholder{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.badge{
+    font-size: 10px;
+    background: blue;
+    padding: 3px;
+    border-radius: 4px;
+    color: white
+}
+
+.card{
+    width: 14em;
+    height: auto;
+    overflow: hidden;
+    background: #f0f0f0;
+    padding: 0px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px black;
+    margin: auto 10px 30px 10px
+}
+
+.card-body{
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+}
+
+.pet-title{
+    font-weight: bold ;
+
+}
+.pet-body{
+    margin: 7px 0 40px 0 ;
+}
+.card-body button{
+    width: 100%;
+}
