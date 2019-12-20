@@ -3,11 +3,11 @@ function doValidate(){
     var error = [];
     console.log("Hi");
     console.log(document.forms[0]);
-    if(!/[A-Za-z]+ [A-Za-z]+/.test(form['name'].value))
+    if(!/^[A-Za-z]+ [A-Za-z]+$/.test(form['name'].value))
         error.push('name');
-    if (!/[A-Za-z_-]+@[A-Za-z-]+.(com|co|co.in|in)/.test(form['email'].value))
+    if (!/^[A-Za-z_-]+@[A-Za-z-]+.(com|co|co.in|in)$/.test(form['email'].value))
         error.push('email');
-    if (!/\d{10}/.test(form['mobile'].value))
+    if (!/^\d{10}$/.test(form['mobile'].value))
         error.push('mobile');
     if (isNaN(Date.parse(form['dob'].value)))
         error.push('dob');
